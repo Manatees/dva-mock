@@ -8,7 +8,7 @@
 
 3. 配置mockjs
 打开 `.roadhogrc.mock.js`， 设置如下
-```javasc
+```javascript
 const fs = require('fs');
 const path = require('path');
 const mockPath = path.join(__dirname+'/mock');
